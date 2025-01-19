@@ -16,9 +16,10 @@
       "suspicious": {
         "noExplicitAny": "off"
       },
-      "style": { "useImportType": "off" },
+      "style": { "useImportType": "off", "noUnusedTemplateLiteral": "error" },
       "complexity": {
-        "noUselessConstructor": "off"
+        "noUselessConstructor": "off",
+        "noStaticOnlyClass": "off"
       },
       "correctness": {
         "noUnreachable": "error"
